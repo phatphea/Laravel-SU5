@@ -20,3 +20,20 @@ Route::get('/services', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+// Route::get('/', function () {
+//     return "Home page";
+// });
+
+// Route::get('/movie/{year?}', function ($year=null) {
+//     $today = date("Y");
+//     if($year == null){
+//         return "Movies released in the year: $today";
+//     }
+//     return "Movies released in the year: " . $year;
+// });
+
+// Route::get('/welcome', function () {
+//     return "Hello from Welcome page";
+// });
+    
